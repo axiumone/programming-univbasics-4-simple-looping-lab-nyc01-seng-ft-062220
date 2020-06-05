@@ -3,7 +3,7 @@ def loop_message_five_times(string)
 
   while i < array.length
     puts string
-    i++
+    i += 1
   end
 end
 
