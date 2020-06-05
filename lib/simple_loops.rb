@@ -31,8 +31,7 @@ def return_string_array(array)
   i = 0
 
   while i < array.length
-    str += array[i]
-    new_arr << str
+    new_arr << array[i].to_s
     i += 1
   end
   new_arr
